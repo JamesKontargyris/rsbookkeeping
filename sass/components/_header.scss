@@ -1,0 +1,96 @@
+.header-container {
+  background:url(../img/hero_banner_bg.jpg) center bottom no-repeat, $blue;
+  background-size:cover, auto;
+}
+
+.page-header__container {
+  @extend .container;
+  padding:0 2rem;
+
+  @include grid-media($grid__site-width) {
+    padding:0;
+  }
+}
+
+.page-header__container,
+.page-header__logo-container,
+.page-header__primary-nav-container {
+  @include clearfix;
+  height:6rem;
+}
+
+.page-header {
+  @extend .container;
+  padding:$base-spacing * 1.5 0;
+  margin-bottom:$base-spacing * 2;
+
+  @include grid-media($grid__l-up) {
+    height:6rem + ($base-spacing * 6);
+    padding:$base-spacing * 3 0;
+    margin-bottom:0;
+  }
+}
+
+.page-header__logo-container {
+  @include grid-media($grid__l-up) {
+    @include grid-column(6);
+  }
+}
+
+.page-header__logo {
+  border-bottom:1px dotted shade($blue, 15%);
+  padding-bottom:$base-spacing * 2;
+
+  @include grid-media($grid__l-up) {
+    border-bottom:0;
+  }
+
+  h1 {
+    margin:0 auto;
+    text-align:center; // for centre positioning the SVG
+
+    @include grid-media($grid__l-up) {
+      text-align:left;
+    }
+
+    svg {
+      max-width:6rem;
+      max-height: 6rem;
+    }
+
+    .page-header__logo-text {
+      position: relative;
+      bottom:-0.5rem;
+    }
+  }
+
+}
+
+.page-header__primary-nav-container {
+  display: none;
+
+  @include grid-media($grid__l-up) {
+    position: relative;
+    display: initial;
+    @include grid-column(6);
+  }
+}
+
+ul.page-header__primary-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: flex-end;
+  list-style: none;
+  min-height:100%;
+  margin:0;
+  padding:0;
+}
+
+li.page-header__primary-nav__item {
+  @include font-size(15, 15);
+  &:not(:last-of-type) {
+    margin-right:4rem;
+  }
+}

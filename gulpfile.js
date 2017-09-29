@@ -1,5 +1,5 @@
 // Dirs
-var baseDir = '/';
+var baseDir = '';
 var sassDir = baseDir + 'sass/';
 var imgDir = baseDir + 'img/';
 var jsDir = baseDir + 'js/';
@@ -35,7 +35,7 @@ gulp.task('styles', function (){
         .pipe(cssnano({
             discardComments:false
         }))
-        .pipe(gulp.dest(baseDir + '/css/'))
+        .pipe(gulp.dest(baseDir + 'css/'))
         .pipe(browserSync.stream());
 });
 
@@ -69,13 +69,14 @@ gulp.task('watch', function() {
     browserSync.init({
         proxy: "rsbk.site",
         notify: false,
-        cors: true
+        cors: true,
+        open: false
     });
 
     /*gulp.watch(jsDir + '**!/!*.js', ['scripts']);*/
     gulp.watch(sassDir + '**/*.scss', ['styles']);
     /*gulp.watch(imgDir + '**!/!*', ['images']);*/
-    gulp.watch(baseDir + '**/*.php').on('change', browserSync.reload);
+    gulp.watch(baseDir + '*.php').on('change', browserSync.reload);
 });
 
 // Default tasks

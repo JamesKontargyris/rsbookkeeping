@@ -1,0 +1,35 @@
+$neat-grid: (
+  columns: 12,
+  gutter: 40px,
+);
+
+$grid__m-up: (
+  columns: 12,
+  gutter: 40px,
+  media: 500px,
+);
+
+$grid__l-up: (
+  columns: 12,
+  gutter: 40px,
+  media: 800px,
+);
+
+$grid__xl-up: (
+  columns: 12,
+  gutter: 40px,
+  media: 1200px,
+);
+
+$grid__site-width: (
+  columns: 12,
+  gutter: 40px,
+  media: 1400px,
+);
+
+.container {
+  @include grid-container;
+  max-width:$site-width;
+  margin:0 auto;
+  box-sizing: border-box;
+}

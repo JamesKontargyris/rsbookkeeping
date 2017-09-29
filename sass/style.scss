@@ -1,2 +1,17 @@
-@include 'boilerplate';
-@include 'normalize';
+@import 'vendors/neat/neat';
+@import 'vendors/bourbon/bourbon';
+
+@import 'abstracts/variables';
+@import 'abstracts/fonts';
+@import 'abstracts/mixins';
+
+@import 'layout/layout';
+
+@import 'base/boilerplate';
+@import 'base/normalize';
+@import 'base/typography';
+
+
+@import 'components/header';
+@import 'components/hero';
+@import 'components/buttons';

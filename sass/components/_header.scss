@@ -1,6 +1,7 @@
 .header-container {
   background:url(../img/hero_banner_bg.jpg) center bottom no-repeat, $blue;
   background-size:cover, auto;
+  padding-bottom:$base-spacing * 14;
 }
 
 .page-header__container {

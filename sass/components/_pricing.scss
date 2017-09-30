@@ -1,0 +1,41 @@
+.pricing {
+  background-color:$blue;
+  margin-bottom:0;
+
+  @include grid-media($grid__m-up) {
+    margin-bottom:-10rem;
+  }
+}
+
+.pricing__icon {
+  max-width:7rem;
+  margin-bottom:$base-spacing * 2;
+}
+
+ul.pricing__services {
+  color:$grey;
+  text-align:left;
+
+  li {
+    line-height:1.5;
+    margin-bottom:$small-spacing * 1.5;
+  }
+}
+
+.pricing__price {
+  margin-top:$base-spacing * 2;
+  @include font-size(26, 26);
+  color:$grey;
+  letter-spacing: -0.1rem;
+}
+
+.pricing__price__amount {
+  @include font-size(54, 54);
+  font-weight:700;
+}
+
+.pricing__price__currency {
+  position: relative;
+  top:-2.2rem;
+  @include font-size(21,24);
+}

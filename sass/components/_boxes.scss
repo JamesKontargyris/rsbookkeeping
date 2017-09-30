@@ -1,0 +1,13 @@
+.box {
+  padding:$base-spacing * 2;
+  border-radius: $base-border-radius;
+  margin-bottom:$base-spacing;
+}
+
+.box--white {
+  background-color: white;
+}
+
+.box--shadow {
+  box-shadow: 0 0 2rem rgba(black, 0.2);
+}

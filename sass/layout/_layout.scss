@@ -12,7 +12,7 @@ $grid__m-up: (
 $grid__l-up: (
   columns: 12,
   gutter: 40px,
-  media: 800px,
+  media: 900px,
 );
 
 $grid__xl-up: (
@@ -32,4 +32,19 @@ $grid__site-width: (
   max-width:$site-width;
   margin:0 auto;
   box-sizing: border-box;
+}
+
+.margin--none {
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+  margin-left:0 !important;
+  margin-right:0 !important;
+}
+
+.margin--double-bottom {
+  margin-bottom:$base-spacing * 2;
+}
+
+.margin--triple-bottom {
+  margin-bottom:$base-spacing * 3;
 }

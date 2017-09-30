@@ -1,0 +1,54 @@
+.page-section {
+  @include clearfix;
+  padding:0 2rem;
+  margin-bottom:$base-spacing * 2;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @include grid-media($grid__l-up) {
+    padding:0 4rem;
+  }
+}
+
+.page-section--light-blue {
+  background-color:$light-blue;
+}
+
+.page-section--ultra-light-blue {
+  background-color:$ultra-light-blue;
+}
+
+.page-section__content {
+  @extend .container;
+}
+
+.page-section__content--padded {
+  padding:$base-spacing * 2 0;
+
+  @include grid-media($grid__l-up) {
+    padding:$base-spacing * 4 0;
+  }
+}
+
+.page-section__content--padded-bottom {
+  padding:0 0 $base-spacing * 2 0;
+
+  @include grid-media($grid__l-up) {
+    padding:0 0 $base-spacing * 4 0;
+  }
+}
+
+.page-section__content--narrow {
+  @include grid-media($grid__xl-up) {
+    @include grid-column(8);
+    @include grid-push(2);
+  }
+}
+
+.page-section--half {
+  @include grid-media($grid__m-up) {
+    @include grid-column(6);
+  }
+}

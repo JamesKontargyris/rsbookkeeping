@@ -1,10 +1,6 @@
 .hero__block {
   position: relative;
-  padding:0 2rem $base-spacing * 3;
-
-  @include grid-media($grid__xl-up) {
-    padding:0 4rem $base-spacing * 3;
-  }
+  margin-bottom:$base-spacing * 2;
 }
 
 .hero__container {
@@ -49,18 +45,4 @@
   @include grid-media($grid__xl-up) {
     @include grid-column(5);
   }
-}
-
-.hero__cta__title {
-  color:white;
-
-  @include grid-media($grid__l-up) {
-    margin-bottom: 0;
-    margin-bottom:$base-spacing;
-  }
-}
-
-.hero__cta__sub-title {
-  color:white;
-  margin-bottom:$base-spacing * 2;
 }

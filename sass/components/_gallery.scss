@@ -1,0 +1,32 @@
+$gallery__row-of-3: (
+  columns: 3,
+  gutter: 40px,
+);
+
+$gallery__row-of-4: (
+  columns: 4,
+  gutter: 40px,
+);
+
+.gallery {
+  @include clearfix;
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.gallery--row-of-3 {
+  .gallery__item {
+    @include grid-media($grid__l-up) {
+      @include grid-column(1, $gallery__row-of-3);
+    }
+  }
+}
+
+.gallery--row-of-4 {
+  .gallery__item {
+    @include grid-media($grid__l-up) {
+      @include grid-column(1, $gallery__row-of-4);
+    }
+  }
+}

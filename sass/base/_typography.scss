@@ -21,7 +21,7 @@ h1 {
   color:white;
   font-family:'Museo-300', 'Museo-500';
   @include font-size(28, 28);
-  
+
 }
 
 h2 {
@@ -33,6 +33,18 @@ h2 {
 
   @include grid-media($grid__xl-up) {
     @include font-size(40, 48);
+  }
+}
+
+h3 {
+  @include font-size(24, 28);
+
+  @include grid-media($grid__m-up) {
+    @include font-size(28, 36);
+  }
+
+  @include grid-media($grid__xl-up) {
+    @include font-size(32, 42);
   }
 }
 
@@ -75,6 +87,7 @@ a:visited {
   &:active,
   &:focus,
   &:hover {
+    color:shade($link-color, 20%);
   }
 }
 
@@ -97,13 +110,114 @@ strong {
 .text--upper {
   text-transform: uppercase;
 }
+.text--center,
+.text--centre {
+  text-align: center;
+}
+
+.text--blue {
+  color:$blue !important;
+}
+a.text--blue {
+  &:link, &:visited {
+    color:$blue !important;
+  }
+  &:hover {
+    color:shade($blue, 20%) !important;
+  }
+}
+
+.text--green {
+  color:$green !important;
+}
+a.text--green {
+  &:link, &:visited {
+    color:$green !important;
+  }
+  &:hover {
+    color:shade($green, 20%) !important;
+  }
+}
+
+.text--orange {
+  color:$orange !important;
+}
+a.text--orange {
+  &:link, &:visited {
+    color:$orange !important;
+  }
+  &:hover {
+    color:shade($orange, 20%) !important;
+  }
+}
+
+.text--yellow {
+  color:$yellow !important;
+}
+a.text--yellow {
+  &:link, &:visited {
+    color:$yellow !important;
+  }
+  &:hover {
+    color:shade($yellow, 20%) !important;
+  }
+}
+
+.text--light-blue {
+  color:$light-blue !important;
+}
+
+a.text--light-blue {
+  &:link, &:visited {
+    color:$light-blue !important;
+  }
+  &:hover {
+    color:shade($light-blue, 20%) !important;
+  }
+}
+
+.font--base {
+  font-family:$base-font-family;
+}
 
 .text--white {
   color:white !important;
 }
-.text--green {
-  color:$green !important;
+a.text--white {
+  &:link, &:visited {
+    color:$white !important;
+  }
+  &:hover {
+    color:shade($white, 20%) !important;
+  }
 }
-.text--light-blue {
-  color:$light-blue !important;
+
+.text--grey {
+  color:$grey !important;
+}
+
+a.text--grey {
+  &:link, &:visited {
+    color:$grey !important;
+  }
+  &:hover {
+    color:shade($grey, 20%) !important;
+  }
+}
+
+.text--bronze {
+  color:$bronze !important;
+}
+
+a.text--bronze {
+  &:link, &:visited {
+    color:$bronze !important;
+  }
+  &:hover {
+    color:shade($bronze, 20%) !important;
+  }
+}
+
+.text--spaced {
+  letter-spacing: 2px;
 }

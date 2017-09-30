@@ -2,6 +2,7 @@
   padding:$base-spacing * 0.75 0.5rem;
   border-radius: $base-border-radius;
   display: inline-block;
+  margin-bottom: $small-spacing;
 
   &:not(:last-of-type) {
     margin-right:0.5rem;
@@ -14,6 +15,16 @@
   &:hover {
     opacity:0.6;
   }
+}
+
+.button--dummy { // Used to imitate a button's spacing etc.
+  &:hover {
+    opacity:1;
+  }
+}
+
+.button--outline {
+  border:1px solid $link-color;
 }
 
 .button--pill {

@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
     <head>
         <?php include('inc/head.inc.php'); ?>
-    </head>
+  </head>
     <body>
 
       <?php
@@ -99,7 +99,7 @@
       <div class="page-section">
         <div class="page-section__content page-section__content--padded-bottom page-section__content--narrow text--center">
           <h3 class="text--grey">Profitable expertise you can rely on</h3>
-          <p class="margin--double-bottom">Employing an experienced, accredited bookkeeper to look after your accounts will save you money. We are registered with the Intenational Association of Bookkeepers and hold full Professional Liability and Indemnity Insurance, so let us handle your bookkeeping needs so you can concentrate on doing what you do best: running your business.</p>
+          <p class="margin--double-bottom">Employing an experienced, accredited bookkeeper to look after your accounts will save you money. We are registered with the International Association of Bookkeepers and hold full Professional Liability and Indemnity Insurance, so let us handle your bookkeeping needs so you can concentrate on doing what you do best: running your business.</p>
           <p class="margin--double-bottom"><a href="#contact" class="button button--pill button--light-blue">Contact us</a></p>
 
         </div>

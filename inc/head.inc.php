@@ -1,10 +1,11 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>RS Bookkeeping :: Business Bookkeeping and Accountancy in Pontefract, West Yorkshire</title>
-<meta name="description" content="">
+<title>RS Bookkeeping :: Business Bookkeeping and Accountancy based in Pontefract, West Yorkshire</title>
+<meta name="description" content="RS Bookeeping :: Business Bookkeeping and Accountancy based in Pontefract, West Yorkshire">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- Place favicon.ico in the root directory -->
 
 <!-- Fonts -->

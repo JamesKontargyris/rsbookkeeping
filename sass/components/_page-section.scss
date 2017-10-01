@@ -42,13 +42,7 @@
 
 .page-section__content--narrow {
   @include grid-media($grid__xl-up) {
-    @include grid-column(8);
-    @include grid-push(2);
-  }
-}
-
-.page-section--half {
-  @include grid-media($grid__m-up) {
-    @include grid-column(6);
+    width:60%;
+    max-width:100rem;
   }
 }

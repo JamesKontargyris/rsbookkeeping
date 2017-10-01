@@ -105,65 +105,42 @@
         </div>
       </div>
 
-      <div class="page-section pricing" id="services">
-        <div class="page-section__content page-section__content--padded text--center">
-          <h2 class="text--white">Services &amp; Pricing</h2>
-          <p class="text--white">We offer a simple three-tier pricing package structure as standard, each with a fixed monthly fee.</p>
-          <p class="text--white margin--triple-bottom">Bespoke packages can be tailor-made if required - please get in touch to discuss your needs.</p>
-          <ul class="gallery gallery--row-of-3 text--center">
-            <li class="gallery__item pricing__item box box--white box--shadow">
-              <img src="img/icon-bronze-medal.png" alt="Bronze medal icon" class="pricing__icon">
-              <h5 class="text--spaced text--upper font--base text--bronze">Bronze</h5>
-              <ul class="pricing__services">
-                <li>Monthly bookkeeping service</li>
-                <li>Dealing with HMRC as required</li>
-                <li>Year-end tax return submission</li>
-              </ul>
-              <div class="pricing__price">
-                <span class="pricing__price__amount text--bronze"><span class="pricing__price__currency">&pound;</span>20</span> / month
-              </div>
-            </li>
-            <li class="gallery__item pricing__item box box--white box--shadow">
-              <img src="img/icon-silver-medal.png" alt="Silver medal icon" class="pricing__icon">
-              <h5 class="text--spaced text--upper font--base text--grey">Silver</h5>
-              <ul class="pricing__services">
-                <li>Monthly bookkeeping service</li>
-                <li>Dealing with HMRC as required</li>
-                <li>Monthly profit and loss reports</li>
-                <li>Year-end tax return submission and company tax return completion</li>
-              </ul>
-              <div class="pricing__price">
-                <span class="pricing__price__amount text--grey"><span class="pricing__price__currency">&pound;</span>45</span> / month
-              </div>
-            </li>
-            <li class="gallery__item pricing__item box box--white box--shadow">
-              <img src="img/icon-gold-medal.png" alt="Gold medal icon" class="pricing__icon">
-              <h5 class="text--spaced text--upper font--base text--yellow">Gold</h5>
-              <ul class="pricing__services">
-                <li>Monthly bookkeeping service</li>
-                <li>Dealing with HMRC as required</li>
-                <li>Monthly profit and loss reports</li>
-                <li>Year-end tax return submission and company tax return completion</li>
-                <li>1 director's tax return submission</li>
-                <li>VAT returns as required</li>
-              </ul>
-              <div class="pricing__price">
-                <span class="pricing__price__amount text--yellow"><span class="pricing__price__currency">&pound;</span>65</span> / month
-              </div>
-            </li>
-          </ul>
+      <div class="page-section services" id="services">
+        <div class="page-section__content page-section__content--padded page-section__content--narrow text--center">
+          <h3 class="text--blue">Services and products built around you, not vice-versa</h3>
+          <p class="margin--double-bottom">All businesses and organisations are different, so we don't offer a one-size-fits-all bundle. We listen to what you want in a consultation and turn that into a bespoke toolbox of services and products, containing everything you need and nothing you don't.</p>
+          <div class="box box--white box--shadow margin--double-bottom">
+            <p class="text--blue">We offer a number of services, including but not limited to:</p>
+            <ul class="gallery gallery--row-of-2">
+              <li class="gallery__item">
+                <ul class="services__list">
+                  <li class="services__list__item">Monthly bookkeeping</li>
+                  <li class="services__list__item">Company tax return completion</li>
+                  <li class="services__list__item">HMRC liaison</li>
+                </ul>
+              </li>
+              <li class="gallery__item">
+                <ul class="services__list">
+                  <li class="services__list__item">Monthly profit and loss reports</li>
+                  <li class="services__list__item">Year-end tax return submission</li>
+                  <li class="services__list__item">VAT returns</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <p>Please contact us to arrange a chat and to discuss your requirements.</p>
         </div>
       </div>
 
       <div class="page-section contact" id="contact">
         <div class="page-section__content page-section__content--padded page-section__content--narrow text--center">
-          <h2 class="text--blue">Get in touch</h2>
-          <p>Discuss your needs with us, ask a question or just say hello! Site visits, video conferences and/or telephone meetings can be arranged as required to fit in with your diary and work flow.</p>
+          <h3 class="text--white">Get in touch</h3>
+          <p class="text--white">Discuss your needs with us, ask a question or just say hello! Site visits, video conferences and/or telephone meetings can be arranged as required to fit in with your diary and work flow.</p>
           <h4 class="margin--none"><a class="button button--pill button--light-blue font--base" href="mailto:info@rsbookkeeping.co.uk"><?php echo hide_email('info@rsbookkeeping.co.uk'); ?></a></h4>
-          <h6 class="font--base text--grey">
+          <h6 class="font--base text--white">
             <div class="button button--dummy" style="display: block;"><i class="fa fa-phone"></i> 07833 562 674</div>
-            <a class="button button--outline button--pill" href="https://twitter.com/RSBookkeeping" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-            <a class="button button--outline button--pill" href="https://www.facebook.com/rsbookkeeping/" target="_blank" ><i class="fa fa-facebook"></i> Facebook</a></h6>
+            <a class="button button--light-blue button--pill" href="https://twitter.com/RSBookkeeping" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+            <a class="button button--light-blue button--pill" href="https://www.facebook.com/rsbookkeeping/" target="_blank" ><i class="fa fa-facebook"></i> Facebook</a></h6>
         </div>
       </div>
 

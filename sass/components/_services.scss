@@ -1,0 +1,19 @@
+.services {
+  background-color:$yellow;
+  margin-bottom:0;
+}
+
+.services__icon {
+  max-width:12rem;
+}
+
+ul.services__list {
+  color:$grey;
+  text-align:left;
+
+  li {
+    line-height:1.5;
+    margin-bottom:$small-spacing * 1.5;
+    font-weight:700;
+  }
+}

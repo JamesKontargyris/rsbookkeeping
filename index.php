@@ -57,7 +57,7 @@
             <div class="hero__cta">
               <h2 class="hero__cta__title text--white">We help businesses take the hassle and stress out of accountancy.</h2>
               <p class="hero__cta__sub-title text--white">Let us assist you in growing your business, not your bookkeeping workload.</p>
-              <a href="#contact" class="button button--pill button--light-blue">Contact us</a> <a href="#services" class="button text--light-blue">Services &amp; pricing</a>
+              <a href="#contact" class="button button--pill button--light-blue">Contact us</a> <a href="#services" class="button text--light-blue">Our services</a>
             </div>
             <img class="hero__illustration" src="img/hero_illustration.svg" alt="Tax Illustration">
           </div>

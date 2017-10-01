@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>RS Bookkeeping :: Business Bookkeeping and Accountancy based in Pontefract, West Yorkshire</title>
+<title>RS Bookkeeping :: Business Bookkeeping and Accountancy based in Normanton, West Yorkshire</title>
 <meta name="description" content="RS Bookeeping :: Business Bookkeeping and Accountancy based in Pontefract, West Yorkshire">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 

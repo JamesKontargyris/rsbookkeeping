@@ -90,7 +90,7 @@
       <div class="page-section">
         <div class="page-section__content page-section__content--padded page-section__content--narrow text--center">
           <h3 class="text--grey">We're from Yorkshire, the home of deep pockets</h3>
-          <p class="margin--double-bottom">We are based in Pontefract, West Yorkshire, and work closely with clients across the country to ensure that their accounts are completed accurately, on time and that deadlines are not missed. Regular dialogue and communication comes as standard, no matter how big or small your project is.</p>
+          <p class="margin--double-bottom">We are based in Normanton, West Yorkshire, and work closely with clients across the country to ensure that their accounts are completed accurately, on time and that deadlines are not missed. Regular dialogue and communication comes as standard, no matter how big or small your project is.</p>
           <p class="margin--double-bottom"><a href="#contact" class="button button--pill button--light-blue">Contact us</a></p>
           <img src="img/divider_illustration.svg" alt="Piggy bank illustration" style="max-width:400px;">
         </div>
@@ -115,15 +115,15 @@
               <li class="gallery__item">
                 <ul class="services__list">
                   <li class="services__list__item">Monthly bookkeeping</li>
-                  <li class="services__list__item">Company tax return completion</li>
                   <li class="services__list__item">HMRC liaison</li>
+                  <li class="services__list__item">Monthly profit and loss reports</li>
                 </ul>
               </li>
               <li class="gallery__item">
                 <ul class="services__list">
-                  <li class="services__list__item">Monthly profit and loss reports</li>
                   <li class="services__list__item">Year-end tax return submission</li>
                   <li class="services__list__item">VAT returns</li>
+                  <li class="services__list__item">Advice and consultation</li>
                 </ul>
               </li>
             </ul>
